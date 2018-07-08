@@ -1,0 +1,11 @@
+{
+  "name": "ErrorMessage",
+  "version": "0.0.1",
+  "description": "Error message component",
+  "main": "dist/index.js",
+  "module": "src/index.js",
+  "author": "Roman Tihanovich",
+  "dependencies": {
+    "react": "^16.4.1"
+  }
+}

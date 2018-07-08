@@ -1,0 +1,46 @@
+:local {
+  .root {
+    display: flex;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 5;
+    background: #fff;
+
+    .inner {
+      text-align: center;
+      margin: auto;
+    }
+
+    .icon {
+      margin-bottom: 21px;
+      fill: #C7CDD3;
+      color: #C7CDD3;
+    }
+
+    .title {
+      margin-bottom: 10px;
+      font-size: 30px;
+      line-height: (36/30);
+      font-weight: 300;
+      color: #001F3C;
+    }
+
+    .text {
+      font-size: 14px;
+      line-height: (21/14);
+      color: #8E96AE;
+
+      a {
+        color: #009D48;
+        transition: color .2s ease;
+
+        &:hover {
+          color: #001F3C;
+        }
+      }
+    }
+  }
+}
