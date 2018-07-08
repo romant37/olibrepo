@@ -19,6 +19,7 @@
     "glob-loader": "^0.3.0",
     "lerna": "^2.11.0",
     "node-sass": "^4.9.2",
+    "react-svg-loader": "^2.1.0",
     "sass-loader": "^7.0.3",
     "style-loader": "^0.21.0"
   },

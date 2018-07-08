@@ -12,3 +12,7 @@ storiesOf('Button', module)
   .add('With cutom text', () => (
     <ErrorMessage title='Error' text='404 page not found' />
   ))
+
+  .add('Small', () => (
+    <ErrorMessage  width={100} height={100} />
+  ))

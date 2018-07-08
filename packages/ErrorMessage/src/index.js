@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-// import ErrorIcon from 'images/icon-error-message.svg'
+import ErrorIcon from './images/icon-error-message.svg'
 
 import styles from './styles.scss'
 
@@ -10,13 +10,12 @@ class ErrorMessage extends Component {
   }
 
   render() {
-    const { title, text } = this.props
+    const { title, text, width = 300, height = 300 } = this.props
     return (
       <span className={styles.root}>
         <div className={styles.inner}>
           <div className={styles.icon}>
-            {/* <ErrorIcon /> */}
-            Icon
+            <ErrorIcon width={width} height={height} />
           </div>
           <div className={styles.title}>{title}</div>
           <div className={styles.text}>{text}</div>
